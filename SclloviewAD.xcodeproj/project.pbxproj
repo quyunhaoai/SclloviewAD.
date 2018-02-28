@@ -13,6 +13,14 @@
 		3F11EF171CEDA25500BE74A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F11EF151CEDA25500BE74A2 /* Main.storyboard */; };
 		3F11EF191CEDA25500BE74A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F11EF181CEDA25500BE74A2 /* Assets.xcassets */; };
 		3F11EF1C1CEDA25500BE74A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F11EF1A1CEDA25500BE74A2 /* LaunchScreen.storyboard */; };
+		3F11EF251CEDA2F000BE74A2 /* QuAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F11EF241CEDA2F000BE74A2 /* QuAD.m */; };
+		3FABDA511CF414DC00033E9C /* QuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FABDA501CF414DC00033E9C /* QuViewController.m */; };
+		3FBB2B521CF402CA00452259 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBB2B4F1CF402CA00452259 /* 1.png */; };
+		3FBB2B531CF402CA00452259 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBB2B501CF402CA00452259 /* 3.png */; };
+		3FBB2B541CF402CA00452259 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBB2B511CF402CA00452259 /* 2.png */; };
+		3FCF0A8D1CF4247700B4AAE6 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF0A8A1CF4247700B4AAE6 /* 1.jpg */; };
+		3FCF0A8E1CF4247700B4AAE6 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF0A8B1CF4247700B4AAE6 /* 2.jpg */; };
+		3FCF0A8F1CF4247700B4AAE6 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF0A8C1CF4247700B4AAE6 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,16 @@
 		3F11EF181CEDA25500BE74A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F11EF1B1CEDA25500BE74A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F11EF1D1CEDA25500BE74A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F11EF231CEDA2F000BE74A2 /* QuAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuAD.h; sourceTree = "<group>"; };
+		3F11EF241CEDA2F000BE74A2 /* QuAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuAD.m; sourceTree = "<group>"; };
+		3FABDA4F1CF414DC00033E9C /* QuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuViewController.h; sourceTree = "<group>"; };
+		3FABDA501CF414DC00033E9C /* QuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuViewController.m; sourceTree = "<group>"; };
+		3FBB2B4F1CF402CA00452259 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3FBB2B501CF402CA00452259 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3FBB2B511CF402CA00452259 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3FCF0A8A1CF4247700B4AAE6 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		3FCF0A8B1CF4247700B4AAE6 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		3FCF0A8C1CF4247700B4AAE6 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +76,14 @@
 		3F11EF0B1CEDA25500BE74A2 /* SclloviewAD */ = {
 			isa = PBXGroup;
 			children = (
+				3F11EF231CEDA2F000BE74A2 /* QuAD.h */,
+				3F11EF241CEDA2F000BE74A2 /* QuAD.m */,
 				3F11EF0F1CEDA25500BE74A2 /* AppDelegate.h */,
 				3F11EF101CEDA25500BE74A2 /* AppDelegate.m */,
 				3F11EF121CEDA25500BE74A2 /* ViewController.h */,
 				3F11EF131CEDA25500BE74A2 /* ViewController.m */,
+				3FABDA4F1CF414DC00033E9C /* QuViewController.h */,
+				3FABDA501CF414DC00033E9C /* QuViewController.m */,
 				3F11EF151CEDA25500BE74A2 /* Main.storyboard */,
 				3F11EF181CEDA25500BE74A2 /* Assets.xcassets */,
 				3F11EF1A1CEDA25500BE74A2 /* LaunchScreen.storyboard */,
@@ -74,6 +96,12 @@
 		3F11EF0C1CEDA25500BE74A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FCF0A8A1CF4247700B4AAE6 /* 1.jpg */,
+				3FCF0A8B1CF4247700B4AAE6 /* 2.jpg */,
+				3FCF0A8C1CF4247700B4AAE6 /* 3.jpg */,
+				3FBB2B4F1CF402CA00452259 /* 1.png */,
+				3FBB2B501CF402CA00452259 /* 3.png */,
+				3FBB2B511CF402CA00452259 /* 2.png */,
 				3F11EF0D1CEDA25500BE74A2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,9 +164,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCF0A8F1CF4247700B4AAE6 /* 3.jpg in Resources */,
+				3FBB2B531CF402CA00452259 /* 3.png in Resources */,
 				3F11EF1C1CEDA25500BE74A2 /* LaunchScreen.storyboard in Resources */,
+				3FBB2B541CF402CA00452259 /* 2.png in Resources */,
 				3F11EF191CEDA25500BE74A2 /* Assets.xcassets in Resources */,
 				3F11EF171CEDA25500BE74A2 /* Main.storyboard in Resources */,
+				3FBB2B521CF402CA00452259 /* 1.png in Resources */,
+				3FCF0A8E1CF4247700B4AAE6 /* 2.jpg in Resources */,
+				3FCF0A8D1CF4247700B4AAE6 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +183,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F11EF251CEDA2F000BE74A2 /* QuAD.m in Sources */,
+				3FABDA511CF414DC00033E9C /* QuViewController.m in Sources */,
 				3F11EF141CEDA25500BE74A2 /* ViewController.m in Sources */,
 				3F11EF111CEDA25500BE74A2 /* AppDelegate.m in Sources */,
 				3F11EF0E1CEDA25500BE74A2 /* main.m in Sources */,
@@ -263,10 +299,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hao Xu (F5SLHTNQX6)";
 				INFOPLIST_FILE = SclloviewAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hw.NewApp.SclloviewAD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.NewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "802dc52c-bd56-419a-94b1-95a53e67faca";
 			};
 			name = Debug;
 		};
@@ -274,10 +313,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hao Xu (F5SLHTNQX6)";
 				INFOPLIST_FILE = SclloviewAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hw.NewApp.SclloviewAD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.NewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "802dc52c-bd56-419a-94b1-95a53e67faca";
 			};
 			name = Release;
 		};
@@ -300,6 +342,7 @@
 				3F11EF221CEDA25500BE74A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
